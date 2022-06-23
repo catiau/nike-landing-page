@@ -20,6 +20,9 @@ header nav ul li a {
 .bag-profile-user {
     align-items: center;
     display: flex;
+    width: 110px;
+    height: 46px;
+    justify-content: space-between
 }
 
 .bag-profile-user .profile-user {

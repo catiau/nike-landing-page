@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Trade Gothic";
+    background-image: url(../assets/imgs/AirEdge270.png);
+    background-size: cover;
+}
+
+.content-text .text-introduce h4 {
+    font-size: 20px;
+    color: #131212;
+}
+
+.content-text .text-introduce h2 {
+    font-size: 72px;
+    color: #131212;
+}
+
+.content-text .text-introduce span {
+    font-size: 20px;
+    color: #131212;
+    opacity: 50%;
+    width: 488px;
+    height: 60px;
+}
+
+.content-image {
+    width: 1688px;
+    height: 500px;
+    background-image: url(../assets/imgs/AirEdge270.png);
+    background-size: cover
+}
