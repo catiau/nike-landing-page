@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a {
+    font-family: "Trade Gothic";
+    display: flex;
+    margin: 50px 20px;
+    color: #131212;
+    text-decoration: none;
+}
+
+.bag-profile-user {
+    align-items: center;
+    display: flex;
+}
+
+.bag-profile-user .profile-user {
+    width: 36px;
+    height: 36px;
+}
+
+.bag-profile-user .bag-user {
+    width: 44px;
+    height: 62px;
+}
