@@ -3,8 +3,6 @@ main {
     align-items: center;
     justify-content: space-around;
     font-family: "Trade Gothic";
-    background-image: url(../assets/imgs/AirEdge270.png);
-    background-size: cover;
 }
 
 .content-text .text-introduce h4 {
@@ -21,13 +19,27 @@ main {
     font-size: 20px;
     color: #131212;
     opacity: 50%;
-    width: 488px;
-    height: 60px;
+    min-width: 488px;
+    min-height: 60px;
 }
 
-.content-image {
-    width: 1688px;
-    height: 500px;
-    background-image: url(../assets/imgs/AirEdge270.png);
-    background-size: cover
+main {
+    background-image: url("../assets/imgs/AirEdge270.png");
+    padding-bottom: 400px;
+    background-repeat: no-repeat;
+}
+
+.size-buttons {
+    max-width: 320px;
+    min-height: 168px;
+}
+
+.size-buttons a {
+    text-decoration: none;
+    margin: 20px;
+    gap: 30px
+}
+
+.view-control {
+    width: 1050px;
 }
