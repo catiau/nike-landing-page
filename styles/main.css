@@ -23,12 +23,6 @@ main {
     min-height: 60px;
 }
 
-main {
-    background-image: url("../assets/imgs/AirEdge270.png");
-    padding-bottom: 400px;
-    background-repeat: no-repeat;
-}
-
 .size-buttons {
     max-width: 320px;
     min-height: 168px;
