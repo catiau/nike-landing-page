@@ -1,8 +1,7 @@
 body {
-    background-image: url("../assets/imgs/AirEdge270.png");
     background-color: #f5f5f5;
-    background-position: center;
-    padding-bottom: 170px;
+    background-image: url(../assets/imgs/AirEdge270.png);
+    background-position: 47% 50%;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: 500px;
-}
+} 
