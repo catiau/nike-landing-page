@@ -1,4 +1,61 @@
 footer {
+    font-family: "Trade Gothic";
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-top: -50px;
+}
+
+.footer-start {
     display: flex;
-    justify-content: space-around
+    justify-content: space-between;
+}
+
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: -50px;
+}
+
+.footer-end .prev-next {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+
+.footer-end .prev-next .prev {
+    display: flex;
+    flex-direction: column;
+}
+.footer-end .prev-next .prev span {
+    position: relative;
+    left: 15px;
+}
+
+.footer-end .prev-next .next span {
+    position: relative;
+    left: 15px;
+}
+
+.footer-end .prev-next .next {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .scroll-down {
+    transform: rotate(-90deg);
+}
+
+footer .social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .view-control {
+    width: 780px;
+    padding-right: 160px;
 }
