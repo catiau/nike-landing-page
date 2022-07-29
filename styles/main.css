@@ -1,33 +1,115 @@
 main {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: "Trade Gothic";
-    background-image: url(../assets/imgs/AirEdge270.png);
-    background-size: cover;
+    flex-wrap: wrap;
+}
+
+.content-text {
+    padding-left: 100px;
 }
 
 .content-text .text-introduce h4 {
     font-size: 20px;
     color: #131212;
+    margin-top: -50px;
 }
 
 .content-text .text-introduce h2 {
-    font-size: 72px;
+    font-size: 50px;
     color: #131212;
 }
 
-.content-text .text-introduce span {
-    font-size: 20px;
+.content-text .text-introduce .span-text {
+    font-size: 17px;
     color: #131212;
-    opacity: 50%;
-    width: 488px;
+    opacity: 70%;
+    width: 300px;
     height: 60px;
+    margin-top: -10px;
 }
 
-.content-image {
-    width: 1688px;
-    height: 500px;
-    background-image: url(../assets/imgs/AirEdge270.png);
-    background-size: cover
+.size-buttons {
+    max-width: 320px;
+    min-height: 100px;
+}
+
+.size-buttons button {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.size-buttons a {
+    text-decoration: none;
+    font-family: "Trade Gothic";
+    color: #131212;
+    font-size: 16px;
+}
+
+.image-content .shoes-content img{
+    width: 450px;
+}
+
+.image-content .view-control-content img {
+    width: 520px;
+}
+
+.color-buttons {
+    width: 320px;
+    height: 168px;
+}
+
+.color-buttons button{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+
+#brown{
+    border: none;
+    background-color: #B6A179;
+}
+#black {
+    border: none;
+    background-color: #272425;
+}
+#yellow{
+    border: none;
+    background-color: #F2C758;
+}
+#blue{
+    border: none;
+    background-color: #6389CB;
+}
+#white {
+    border: none;
+    background-color: #ffffff;
+}
+
+.content-text-preferences {
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-text-preferences .color-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+@media (max-width: 688px) {
+    main {
+        padding-top: 120px;
+    }
+    .content-text-preferences{
+        margin-top: 220px;
+        padding-left: 60px;
+    }
 }
